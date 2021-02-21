@@ -94,6 +94,22 @@ namespace Toolificent
             {
                 new FileStream(fileName, FileMode.Create);
             }
+            else
+            {
+                throw new Exception(String.Format("File Already Exists. ({0})", fileName));
+            }
+        }
+
+        public static void RemoveFile(string fileName)
+        {
+            if (CheckExists(fileName))
+            {
+                File.Delete(fileName);        
+            }
+            else
+            {
+                throw new Exception(String.Format("File does not Exist. ({0})", fileName));
+            }
         }
     }
 }
