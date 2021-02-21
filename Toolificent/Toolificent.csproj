@@ -5,7 +5,7 @@
     <Authors>J-Egan</Authors>
     <Description>.Net Toolbox -  Source Available -J-egan/toolificent</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>0.1</Version>
+    <Version>0.11</Version>
     <RepositoryUrl>https://github.com/J-Egan/Toolificent</RepositoryUrl>
     <PackageProjectUrl>jackegan.me/Toolificent</PackageProjectUrl>
     <PackageTags>Toolbox</PackageTags>
